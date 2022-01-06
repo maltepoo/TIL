@@ -66,6 +66,11 @@ const config = {
             to: "docs/backend/intro",
           },
           {
+            position: "left",
+            label: "CS",
+            to: "docs/cs/intro",
+          },
+          {
             href: 'https://github.com/maltepoo',
             label: 'GitHub',
             position: 'right',
