@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktil_doc=self.webpackChunktil_doc||[]).push([[121],{8070:function(e){e.exports=JSON.parse('[{"name":"Web","permalink":"/TIL/docs/tags/web","count":2}]')}}]);
