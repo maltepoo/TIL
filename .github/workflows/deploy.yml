@@ -3,7 +3,6 @@ name: Auto Deploy to GitHub Pages
 on:
   push:
     branches: [master]
-    paths: [/]
 
 jobs:
   deploy:
