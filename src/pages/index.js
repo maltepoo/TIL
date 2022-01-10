@@ -1,5 +1,5 @@
 import React from 'react';
-// import clsx from 'clsx';
+import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -9,8 +9,8 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <body className={styles.heroBanner}>
-    {/* <body className={clsx('hero hero--primary', styles.heroBanner)}> */}
+    // <body className={styles.heroBanner}>
+    <div className={clsx(styles.heroBanner)}>
       <div className="container">
         <img className={styles.main} src='img/logo-til-bubble.png'/>
         <h1 className="hero__title">{siteConfig.title}</h1>
@@ -23,7 +23,7 @@ function HomepageHeader() {
           </Link>
         </div>
       </div>
-    </body>
+    </div>
   );
 }
 
@@ -31,9 +31,9 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      description="maltepoo's TIL💗">
+    description="maltepoo's TIL💗">
+    <HomepageHeader />
       <main>
-        <HomepageHeader />
         {/* <HomepageFeatures /> */}
       </main>
     </Layout>
