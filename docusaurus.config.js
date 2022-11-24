@@ -9,12 +9,12 @@ const config = {
   title: 'Today I Learned',
   tagline: '꾸준하게 🔥',
   url: 'https://maltepoo.github.io',
-  baseUrl: '/TIL/',
+  baseUrl: '/logs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'maltepoo', // Usually your GitHub org/user name.
-  projectName: 'TIL', // Usually your repo name.
+  projectName: 'logs', // Usually your repo name.
 
   presets: [
     [
