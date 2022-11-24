@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktil_doc=self.webpackChunktil_doc||[]).push([[121],{8070:function(e){e.exports=JSON.parse('[{"name":"Web","permalink":"/logs/docs/tags/web","count":2},{"name":"Computer Science","permalink":"/logs/docs/tags/computer-science","count":1},{"name":"React","permalink":"/logs/docs/tags/react","count":1}]')}}]);
